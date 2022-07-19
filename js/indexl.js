@@ -18,7 +18,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Hi|Em yêu❤|happy birthday|#countdown 3||');
+      S.UI.simulate('happy birthday|Đàm Hồng Vân|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
